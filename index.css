@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(-s-branco);
+    color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -87,6 +87,10 @@ body {
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
+}
+.contador{
+    font-size: 20px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
